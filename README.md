@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Poemas para Bonny</title>
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <style>
     body {
       background-color: #0f0f0f;
@@ -44,6 +43,12 @@
       margin-top: 20px;
       box-shadow: 0 0 10px #420000;
     }
+
+    img {
+      max-width: 100%;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
@@ -74,5 +79,10 @@
     É uma amizade que vai mais além.
   </p>
 
+  <!-- Exemplo de imagem -->
+  <img src="https://github.com/seunome/site-da-bonny/raw/main/imagens/exemplo-imagem.jpg" alt="Imagem Bonny">
+
 </body>
 </html>
+
+     
