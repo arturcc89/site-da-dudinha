@@ -1,2 +1,78 @@
-# site-da-bonny
-poema para a minha querida bonny
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Poemas para Bonny</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+      font-family: 'Share Tech Mono', monospace;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      border: 3px solid #8b0000;
+      box-shadow: 0 0 15px #8b0000;
+    }
+
+    h1 {
+      font-family: 'UnifrakturCook', cursive;
+      font-size: 3em;
+      color: #ff0033;
+      text-align: center;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-family: 'UnifrakturCook', cursive;
+      color: #ff3366;
+      font-size: 1.8em;
+      margin-top: 40px;
+      border-bottom: 2px dashed #ff3366;
+      padding-bottom: 5px;
+    }
+
+    p {
+      background-color: #1c1c1c;
+      padding: 20px;
+      border-left: 5px solid #ff0033;
+      border-radius: 8px;
+      line-height: 1.8;
+      font-size: 1.1em;
+      margin-top: 20px;
+      box-shadow: 0 0 10px #420000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Poemas para Bonny</h1>
+
+  <h2>Poema 1 – Amizade Brilhante</h2>
+  <p>
+    Em cada risada, um brilho no ar,<br>
+    Bonny, contigo é bom conversar.<br>
+    Amizade sincera, do tipo rara,<br>
+    Com você, a vida nunca para.
+  </p>
+
+  <h2>Poema 2 – Conversas Infinitas</h2>
+  <p>
+    Entre memes, segredos e riso,<br>
+    Você me traz sempre o paraíso.<br>
+    Amiga leal, forte como leão,<br>
+    Bonny, você mora no meu coração!
+  </p>
+
+  <h2>Poema 3 – Do Jeito que a Gente É</h2>
+  <p>
+    A gente se entende só no olhar,<br>
+    Às vezes do nada começa a zoar.<br>
+    Bonny, contigo tudo fica bem,<br>
+    É uma amizade que vai mais além.
+  </p>
+
+</body>
+</html>
