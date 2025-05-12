@@ -2,15 +2,14 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Poemas para Bonny</title>
+  <title>Para Bonny</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'UnifrakturCook', cursive;
-      background: url('fundo.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background: #0e0e0e;
       color: white;
     }
 
@@ -41,6 +40,12 @@
       font-size: 20px;
       line-height: 1.6;
       box-shadow: 0 0 10px black;
+      transition: all 0.5s ease;
+    }
+
+    .poema:hover {
+      box-shadow: 0 0 20px crimson;
+      transform: scale(1.01);
     }
 
     hr {
@@ -56,47 +61,128 @@
       margin: 60px 20px;
       font-size: 16px;
     }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    button {
+      background: crimson;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
 
   <div class="menu">
-    <a href="#poema1">Poema 1</a>
-    <a href="#poema2">Poema 2</a>
-    <a href="#poema3">Poema 3</a>
+    <a href="#poema1">Poemas</a>
+    <a href="#carta">Carta de Tarô</a>
+    <a href="#mensagem">Nota</a>
   </div>
 
+  <!-- Poema 1 -->
   <div id="poema1" class="poema">
-    <h2>Poema 1</h2>
-    <p>Teus olhos, Bonny, são noites sem fim<br>
-    onde estrelas nascem só pra me guiar.<br>
-    Cada riso teu é tempestade mansa,<br>
-    e eu me deixo naufragar.</p>
+    <h2>teu olhar e como noite de trovão</h2>
+    <p>bonito, forte e cheio de poder<br>quando cê sorri parece até mentira<br>que eu sou amigo de alguém assim</p>
+    <img src="https://i.imgur.com/9b0cZP7.jpg" alt="Imagem 1">
   </div>
 
   <hr>
 
-  <div id="poema2" class="poema">
-    <h2>Poema 2</h2>
-    <p>Entre ruínas e rosas negras<br>
-    tua presença acende o mundo.<br>
-    Um caos doce, alma selvagem,<br>
-    onde até o silêncio é profundo.</p>
+  <!-- Poema 2 -->
+  <div class="poema">
+    <h2>bonny tu e raio de luar no breu</h2>
+    <p>alma rebelde, fogo e neblina<br>teu estilo é como arte que ninguém entende<br>mas todo mundo sente</p>
+    <img src="https://i.imgur.com/sbA4EyM.jpg" alt="Imagem 2">
   </div>
 
   <hr>
 
-  <div id="poema3" class="poema">
-    <h2>Poema 3</h2>
-    <p>Se eu pudesse moldar o tempo,<br>
-    guardava teus gestos num relicário.<br>
-    Pois cada instante contigo, Bonny,<br>
-    é eternidade num altar diário.</p>
+  <!-- Poema 3 -->
+  <div class="poema">
+    <h2>em cada riso teu tem estrada</h2>
+    <p>que leva pra memória minha<br>as loucuras que vivemos juntos<br>são tatuagem em mim que nunca apaga</p>
+    <img src="https://i.imgur.com/WkVJmn7.jpg" alt="Imagem 3">
+  </div>
+
+  <hr>
+
+  <!-- Poema 4 -->
+  <div class="poema">
+    <h2>Teus olhos, Bonny, são noites sem fim</h2>
+    <p>onde estrelas nascem só pra me guiar.<br>Cada riso teu é tempestade mansa,<br>e eu me deixo naufragar.</p>
+  </div>
+
+  <hr>
+
+  <!-- Poema 5 -->
+  <div class="poema">
+    <h2>Bonny, teu abraço é porto seguro</h2>
+    <p>Onde minha alma encontra repouso<br>O que é meu, é teu, sem palavras<br>Como um campo de flores a crescer</p>
+  </div>
+
+  <hr>
+
+  <!-- Poema 6 -->
+  <div class="poema">
+    <h2>Teus passos, Bonny, ecoam no vento</h2>
+    <p>Como o som de uma melodia antiga<br>Em cada gesto, a beleza do caos<br>Em cada olhar, um universo a se abrir</p>
+  </div>
+
+  <hr>
+
+  <!-- Poema 7 -->
+  <div class="poema">
+    <h2>Bonny, tu és fogo e estrela</h2>
+    <p>Brilhas nos meus sonhos e nas minhas ruas<br>A revolução do amor em cada gesto<br>Em ti, encontrei a eternidade.</p>
+  </div>
+
+  <hr>
+
+  <!-- Carta de Tarô -->
+  <div id="carta" class="poema">
+    <h2>Tirar uma carta de tarô</h2>
+    <button onclick="mostrarCarta()">Tirar uma carta</button>
+    <p id="cartaResultado"></p>
+    <script>
+      const cartas = ["O Louco", "A Sacerdotisa", "O Mago", "A Imperatriz", "O Imperador", "O Hierofante"];
+      function mostrarCarta() {
+        const aleatoria = cartas[Math.floor(Math.random() * cartas.length)];
+        document.getElementById("cartaResultado").innerText = "Você tirou: " + aleatoria;
+      }
+    </script>
+  </div>
+
+  <hr>
+
+  <!-- Mensagem final -->
+  <div id="mensagem" class="poema">
+    <h2>Nota pra Bonny</h2>
+    <p id="mensagemBonny"></p>
+    <script>
+      const texto = "eu sei que eu você acha bonito e eu quero ti dar algo e ti impressionar por que você sempre faz coisas legais e a única coisa que eu sei é isso então eu quero que com todo meu coração você sempre lembre disso por que eu sempre vou mim lembrar das coisas que você mim deu e das aventuras que a gente teve";
+      let i = 0;
+      function digitar() {
+        if (i < texto.length) {
+          document.getElementById("mensagemBonny").innerHTML += texto.charAt(i);
+          i++;
+          setTimeout(digitar, 40);
+        }
+      }
+      digitar();
+    </script>
   </div>
 
   <footer>
-    Eu sei que você acha bonito... e isso é tudo que eu queria te dar.<br>
-    Porque eu sempre vou lembrar do que você me deu e das nossas aventuras.
+    feito com tudo que eu sei, só pra você lembrar que alguém sempre vai lembrar de você.
   </footer>
 
 </body>
