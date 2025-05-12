@@ -3,165 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <title>Poemas para Bonny</title>
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
   <style>
     body {
-      background: url('https://source.unsplash.com/1600x900/?dark,flowers,romantic') no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'Patrick Hand SC', cursive;
-      color: #fff;
       margin: 0;
-      padding: 0;
-      height: 100vh;
-    }
-
-    h1 {
-      text-align: center;
       font-family: 'UnifrakturCook', cursive;
-      font-size: 4em;
-      color: #ff0055;
-      margin-top: 50px;
-      text-shadow: 2px 2px 6px black;
-      letter-spacing: 4px;
+      background: url('fundo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
     }
 
-    h2 {
-      font-size: 2.5em;
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(10, 10, 10, 0.9);
+      padding: 15px;
       text-align: center;
-      margin: 20px 0;
-      font-family: 'UnifrakturCook', cursive;
-      color: #ff66cc;
-      text-shadow: 1px 1px 5px #000000;
+      z-index: 1000;
     }
 
-    p {
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 15px;
-      margin: 30px auto;
-      padding: 25px;
-      width: 70%;
-      font-size: 1.3em;
-      line-height: 1.6;
-      box-shadow: 0 0 15px 2px rgba(255, 0, 85, 0.7);
-      text-align: justify;
-      position: relative;
-      opacity: 0;
-      animation: fadeIn 2s forwards;
+    .menu a {
+      color: crimson;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 18px;
     }
 
-    p:nth-child(1) {
-      animation-delay: 1s;
-    }
-
-    p:nth-child(2) {
-      animation-delay: 2s;
-    }
-
-    p:nth-child(3) {
-      animation-delay: 3s;
-    }
-
-    img {
-      display: block;
-      margin: 40px auto;
-      max-width: 100%;
+    .poema {
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 100px auto 60px;
+      padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 0 15px 2px rgba(255, 0, 85, 0.7);
-      animation: fadeIn 3s forwards;
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.6;
+      box-shadow: 0 0 10px black;
     }
 
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    hr {
+      border: none;
+      border-top: 2px dashed crimson;
+      margin: 60px 0;
     }
 
     footer {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
       text-align: center;
-      font-size: 1.2em;
-      color: #ff66cc;
+      font-style: italic;
+      color: gray;
+      margin: 60px 20px;
+      font-size: 16px;
     }
-
   </style>
 </head>
 <body>
 
-  <h1>Para Bonny</h1>
+  <div class="menu">
+    <a href="#poema1">Poema 1</a>
+    <a href="#poema2">Poema 2</a>
+    <a href="#poema3">Poema 3</a>
+  </div>
 
-  <h2>Mensagem Especial</h2>
-  <p>
-    Eu sei que eu você acha bonito e eu quero ti dar algo e ti impressionar<br>
-    por que você sempre você coisas legais e a unica coisa que eu sei é isso.<br>
-    Então eu quero que com todo meu coração você sempre lembre disso,<br>
-    por que eu sempre vou mim lembra das coisas que você mim deu<br>
-    e das aventuras que a gente teve.
-  </p>
+  <div id="poema1" class="poema">
+    <h2>Poema 1</h2>
+    <p>Teus olhos, Bonny, são noites sem fim<br>
+    onde estrelas nascem só pra me guiar.<br>
+    Cada riso teu é tempestade mansa,<br>
+    e eu me deixo naufragar.</p>
+  </div>
 
-  <h2>Poema 1 – Amizade Eterna</h2>
-  <p>
-    Na sombra da noite, brilhas como estrela,<br>
-    Bonny, amiga verdadeira, sempre singela.<br>
-    Nos teus olhos vejo um futuro sem fim,<br>
-    Nossa amizade será sempre assim.
-  </p>
+  <hr>
 
-  <h2>Poema 2 – Noites de Conversa</h2>
-  <p>
-    Entre risos e segredos trocados no vento,<br>
-    No seu olhar, vejo um eterno encantamento.<br>
-    Bonny, a amizade é um vínculo sem igual,<br>
-    Como a lua e as estrelas no céu celestial.
-  </p>
+  <div id="poema2" class="poema">
+    <h2>Poema 2</h2>
+    <p>Entre ruínas e rosas negras<br>
+    tua presença acende o mundo.<br>
+    Um caos doce, alma selvagem,<br>
+    onde até o silêncio é profundo.</p>
+  </div>
 
-  <h2>Poema 3 – Força e Lealdade</h2>
-  <p>
-    Mesmo nos momentos mais sombrios e frios,<br>
-    Sua presença é luz nos meus caminhos.<br>
-    Bonny, tua força me faz crescer,<br>
-    Sempre com você, nunca vou temer.
-  </p>
+  <hr>
 
-  <h2>Poema 4 – Lembranças e Sonhos</h2>
-  <p>
-    Bonny, em cada memória que guardo de ti,<br>
-    Vejo um futuro onde o amor sempre será assim.<br>
-    Com risos e sonhos, te encontro na poesia,<br>
-    E em cada verso, minha alma se arrepia.
-  </p>
+  <div id="poema3" class="poema">
+    <h2>Poema 3</h2>
+    <p>Se eu pudesse moldar o tempo,<br>
+    guardava teus gestos num relicário.<br>
+    Pois cada instante contigo, Bonny,<br>
+    é eternidade num altar diário.</p>
+  </div>
 
-  <h2>Poema 5 – Entre Estrelas</h2>
-  <p>
-    Se eu fosse uma estrela, escolheria brilhar,<br>
-    Ao lado de Bonny, para sempre estar.<br>
-    Pois, em cada olhar, vejo um universo a se abrir,<br>
-    E em cada palavra, vejo o céu sorrir.
-  </p>
-
-  <h2>Poema 6 – Companheirismo</h2>
-  <p>
-    Na jornada da vida, ao teu lado, passo a andar,<br>
-    E a cada desafio, vejo nosso laço se fortalecer.<br>
-    Bonny, companheira, sempre a me apoiar,<br>
-    Com você, qualquer obstáculo posso vencer.
-  </p>
-
-  <h2>Poema 7 – Entre a Luz e a Sombra</h2>
-  <p>
-    Entre a luz e a sombra, nossa amizade vai brilhar,<br>
-    Bonny, contigo, não há escuridão a me assustar.<br>
-    Pois em tua presença, a vida se torna bela,<br>
-    E cada dia ao seu lado é como uma estrela.
-  </p>
-
-  <footer>Feito com todo carinho e amor.</footer>
+  <footer>
+    Eu sei que você acha bonito... e isso é tudo que eu queria te dar.<br>
+    Porque eu sempre vou lembrar do que você me deu e das nossas aventuras.
+  </footer>
 
 </body>
 </html>
