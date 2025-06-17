@@ -7,8 +7,7 @@
   <style>
     body {
       margin: 0;
-      background: #1b1b1b url('https://i.imgur.com/HNqI3K5.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background-color: #1b1b1b;
       font-family: 'Cinzel Decorative', cursive;
       color: #f5deb3;
       text-align: center;
@@ -44,13 +43,7 @@
     p {
       font-size: 20px;
       line-height: 1.6;
-    }
-
-    .hogwarts {
-      width: 100%;
-      border-radius: 10px;
-      margin-top: 20px;
-      box-shadow: 0 0 15px #000;
+      margin-bottom: 25px;
     }
 
     footer {
@@ -70,17 +63,34 @@
   </header>
 
   <section>
-    <h2>🪄 Palavras que brilham como Lumos</h2>
-    <p>Duda, você é como uma dessas coisas raras em Hogwarts: única, cheia de luz, e com um brilho que ninguém ignora.</p>
-    <p>Quando você sorri, é como se o Salão Principal inteiro acendesse com velas flutuantes só pra ver você passar.</p>
-    <p>Eu queria ter uma poção do tempo só pra viver momentos ao seu lado mais vezes. Mesmo sem varinha, você faz mágica acontecer só estando aqui.</p>
-    <img class="hogwarts" src="https://i.imgur.com/8KZlLz1.jpeg" alt="Castelo de Hogwarts">
+    <h2>Poemas de um Trouxa encantado</h2>
+
+    <p>Entre tantas almas no mundo espalhadas,<br>
+    Teu brilho é feitiço em noites caladas.</p>
+
+    <p>Nos livros de Hogwarts, nunca li<br>
+    Um capítulo tão bonito quanto estar perto de ti.</p>
+
+    <p>Tua presença acalma como Felix Felicis,<br>
+    Sorte em pessoa, entre tantos feitiços.</p>
+
+    <p>Em silêncio, teu olhar já me chama,<br>
+    Como um feitiço antigo que aquece e inflama.</p>
+
+    <p>Seus passos ecoam como dança no salão,<br>
+    E eu sigo encantado, sem proteção.</p>
+
+    <p>Nem Dumbledore explicaria o que você me causa,<br>
+    Porque até ele se perderia nessa pausa.</p>
+
+    <p>Se existir um Patrono que guie minha estrada,<br>
+    Ele tem sua voz e tua risada encantada.</p>
   </section>
 
   <section>
-    <h2>✨ De coração Trouxa, palavras encantadas</h2>
+    <h2>De coração Trouxa, palavras encantadas</h2>
     <p>Esse site é simples, mas ele carrega tudo que eu sei fazer, só pra te dizer que... mesmo sem feitiço, eu gosto muito de você.</p>
-    <p>Se eu pudesse usar um feitiço agora, seria <strong>"Amortentia"</strong> — só pra ver se você sente o mesmo que eu sinto toda vez que penso em você.</p>
+    <p>Se eu pudesse usar um feitiço agora, seria <strong>Amortentia</strong> — só pra ver se você sente o mesmo que eu sinto toda vez que penso em você.</p>
   </section>
 
   <footer>
