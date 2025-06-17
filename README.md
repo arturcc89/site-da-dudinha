@@ -33,6 +33,7 @@
       background-color: rgba(10, 10, 10, 0.75);
       border-radius: 15px;
       box-shadow: 0 0 20px goldenrod;
+      margin-bottom: 40px;
     }
 
     h2 {
@@ -43,7 +44,7 @@
     p {
       font-size: 20px;
       line-height: 1.6;
-      margin-bottom: 25px;
+      margin-bottom: 0;
     }
 
     footer {
@@ -63,26 +64,43 @@
   </header>
 
   <section>
-    <h2>Poemas de um Trouxa encantado</h2>
-
+    <h2>Poema 1 — Luz Rara</h2>
     <p>Entre tantas almas no mundo espalhadas,<br>
     Teu brilho é feitiço em noites caladas.</p>
+  </section>
 
+  <section>
+    <h2>Poema 2 — Capítulo Inédito</h2>
     <p>Nos livros de Hogwarts, nunca li<br>
     Um capítulo tão bonito quanto estar perto de ti.</p>
+  </section>
 
+  <section>
+    <h2>Poema 3 — Poção da Sorte</h2>
     <p>Tua presença acalma como Felix Felicis,<br>
     Sorte em pessoa, entre tantos feitiços.</p>
+  </section>
 
+  <section>
+    <h2>Poema 4 — Silêncio Encantado</h2>
     <p>Em silêncio, teu olhar já me chama,<br>
     Como um feitiço antigo que aquece e inflama.</p>
+  </section>
 
+  <section>
+    <h2>Poema 5 — Dança no Salão</h2>
     <p>Seus passos ecoam como dança no salão,<br>
     E eu sigo encantado, sem proteção.</p>
+  </section>
 
+  <section>
+    <h2>Poema 6 — Além de Dumbledore</h2>
     <p>Nem Dumbledore explicaria o que você me causa,<br>
     Porque até ele se perderia nessa pausa.</p>
+  </section>
 
+  <section>
+    <h2>Poema 7 — Patrono Favorito</h2>
     <p>Se existir um Patrono que guie minha estrada,<br>
     Ele tem sua voz e tua risada encantada.</p>
   </section>
