@@ -2,117 +2,86 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Para Duda</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <title>Para Jasmim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      background-color: #1b1b1b;
-      font-family: 'Cinzel Decorative', cursive;
-      color: #f5deb3;
+      background-color: #fff8f0;
+      font-family: 'Playfair Display', serif;
+      color: #2e1e0f;
       text-align: center;
     }
 
     header {
       padding: 60px 20px 20px;
-      background-color: rgba(0, 0, 0, 0.7);
-      border-bottom: 3px solid goldenrod;
+      background-color: #f2e0d3;
+      border-bottom: 3px solid #d8a35d;
     }
 
     header h1 {
       font-size: 48px;
       margin: 0;
-      color: goldenrod;
-      text-shadow: 2px 2px 5px black;
+      color: #a96b2d;
+      text-shadow: 1px 1px #fff0e5;
     }
 
     section {
       max-width: 800px;
       margin: 60px auto;
       padding: 40px;
-      background-color: rgba(10, 10, 10, 0.75);
+      background-color: #fff1e6;
       border-radius: 15px;
-      box-shadow: 0 0 20px goldenrod;
-      margin-bottom: 40px;
+      box-shadow: 0 0 20px #e5c7aa;
     }
 
     h2 {
-      color: #ffcc00;
+      color: #b46a35;
       margin-bottom: 20px;
     }
 
     p {
       font-size: 20px;
       line-height: 1.6;
-      margin-bottom: 0;
+      margin-bottom: 25px;
     }
 
     footer {
       margin-top: 100px;
       padding: 20px;
-      background-color: rgba(20, 20, 20, 0.6);
+      background-color: #f2e0d3;
       font-size: 16px;
-      color: #aaa;
+      color: #6b4c3b;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Para Duda</h1>
-    <p>Um feitiço suave, um sorriso mágico</p>
+    <h1>Para Jasmim</h1>
+    <p>Entre flores, você é única</p>
   </header>
 
   <section>
-    <h2>Poema 1 — Luz Rara</h2>
-    <p>Entre tantas almas no mundo espalhadas,<br>
-    Teu brilho é feitiço em noites caladas.</p>
-  </section>
+    <h2>Poema para uma amizade rara</h2>
+    <p>Jasmim não é só nome de flor,<br>
+    É presença que traz calor.</p>
 
-  <section>
-    <h2>Poema 2 — Capítulo Inédito</h2>
-    <p>Nos livros de Hogwarts, nunca li<br>
-    Um capítulo tão bonito quanto estar perto de ti.</p>
-  </section>
+    <p>É riso que preenche espaço,<br>
+    É abraço, mesmo de longe, no laço.</p>
 
-  <section>
-    <h2>Poema 3 — Poção da Sorte</h2>
-    <p>Tua presença acalma como Felix Felicis,<br>
-    Sorte em pessoa, entre tantos feitiços.</p>
-  </section>
+    <p>Não é só amiga — é quem escuta,<br>
+    É calma quando a vida luta.</p>
 
-  <section>
-    <h2>Poema 4 — Silêncio Encantado</h2>
-    <p>Em silêncio, teu olhar já me chama,<br>
-    Como um feitiço antigo que aquece e inflama.</p>
-  </section>
+    <p>É luz suave em tarde serena,<br>
+    Que chega e resolve a cena.</p>
 
-  <section>
-    <h2>Poema 5 — Dança no Salão</h2>
-    <p>Seus passos ecoam como dança no salão,<br>
-    E eu sigo encantado, sem proteção.</p>
-  </section>
-
-  <section>
-    <h2>Poema 6 — Além de Dumbledore</h2>
-    <p>Nem Dumbledore explicaria o que você me causa,<br>
-    Porque até ele se perderia nessa pausa.</p>
-  </section>
-
-  <section>
-    <h2>Poema 7 — Patrono Favorito</h2>
-    <p>Se existir um Patrono que guie minha estrada,<br>
-    Ele tem sua voz e tua risada encantada.</p>
-  </section>
-
-  <section>
-    <h2>De coração Trouxa, palavras encantadas</h2>
-    <p>Esse site é simples, mas ele carrega tudo que eu sei fazer, só pra te dizer que... mesmo sem feitiço, eu gosto muito de você.</p>
-    <p>Se eu pudesse usar um feitiço agora, seria <strong>Amortentia</strong> — só pra ver se você sente o mesmo que eu sinto toda vez que penso em você.</p>
+    <p>Se um dia o mundo esquecer de ser bonito,<br>
+    Eu lembro da Jasmim — e tudo faz sentido.</p>
   </section>
 
   <footer>
-    Criado com carinho por alguém que pensa em você — mesmo sem magia.
+    Escrito com carinho por quem sempre se lembra de você.
   </footer>
 
 </body>
